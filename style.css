@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffebcc, #d3d3d3); /* Peach to Grey Gradient */
+}
+
+/* Header Styles */
+h1 {
+    color: #d35400;
+    text-align: center;
+    font-size: 36px;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #444;
+}
+
+/* Menu Section */
+h2, h3 {
+    color: #d35400;
+    text-align: center;
+}
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4a261;
+    color: white;
+    font-size: 18px;
+}
+
+td {
+    font-size: 16px;
+}
+
+/* Highlighting rows */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Contact Section */
+.contact-container {
+    text-align: center;
+    background: linear-gradient(to bottom, #ffcc99, #999999); /* Peach to Grey Gradient */
+    padding: 20px;
+    margin: 30px auto;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact-container h2 {
+    color: #d35400;
+}
+
+.contact-container p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.contact-container a {
+    display: inline-block;
+    background-color: #d35400;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.contact-container a:hover {
+    background-color: #b34700;
+}
+
+/* Working Hours */
+h3 {
+    margin-top: 20px;
+}
